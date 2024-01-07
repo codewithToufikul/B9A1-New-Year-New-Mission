@@ -159,7 +159,7 @@ section{
     color: #FFF;
 }
 .park-hotel{
-    padding-top: 120px;
+    padding-top: 100px;
     text-align: center;
 }
 #park-hotel-area{
@@ -167,4 +167,120 @@ section{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 20px;
     height: 482px;
+}
+
+/* new best offer area  */
+
+.best-offer h3{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.best-offer h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.best-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.best-offer{
+    width: 393px;
+}
+.celebrete{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.celebrete img{
+    padding-top: 53px;
+    padding-left: 53px;
+}
+.new-year h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 400;
+}
+.new-year{
+    width: 286px;
+}
+.comming-soon-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#comming-area{
+    margin-top: 120px;
+}
+
+/* holiday 50% off area  */
+
+.holiday-area h3{
+    color: #070211;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.holiday-area h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0;
+
+}
+.holiday-area p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.holiday-area{
+    width: 1068px;
+    margin: 0 auto;
+}
+.picture-area{
+    width: 430px;
+    height: 433px;
+    position: relative;
+}
+.image-1{
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: -160px;
+}
+.image-2{
+    position: absolute;
+    top: 6px;
+}
+.holiday-image{
+    display: flex;
+    justify-content: space-between;
+
+}
+#holiday-off-area{
+    background-image: url(../images/red-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.box-image img{
+    
 }
