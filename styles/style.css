@@ -181,12 +181,14 @@ section{
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 30px;
 }
 .best-offer h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 30px;
 }
 .best-offer p{
     color: rgba(7, 2, 17, 0.60);
@@ -194,6 +196,7 @@ section{
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    
 }
 .best-offer{
     width: 393px;
@@ -203,6 +206,7 @@ section{
     height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
+    
 }
 .celebrete img{
     padding-top: 53px;
@@ -218,6 +222,10 @@ section{
     font-size: 20px;
     font-family: Lato;
     font-weight: 400;
+    padding-top: 30px;
+}
+.newpng{
+    padding-top: 40px;
 }
 .new-year{
     width: 286px;
@@ -326,6 +334,14 @@ section{
     justify-content: center;
     gap: 20px;
 }
+.imagess{
+    position: relative;
+    /* width: 50%; */
+}
+.imagess :hover{
+    border: 3px solid orangered;
+    border-radius: 15px;
+}
 #six-image{
     margin-top: 120px;
 }
@@ -345,6 +361,7 @@ section{
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 .subscribe-item{
     width: 896px;
@@ -388,7 +405,7 @@ section{
     font-weight: 600;
 }
 .input-btn{
-    width: 210px;
+    width: 200px;
     height: 70px;
     border: none;
     border-radius: 0px 50px 50px 0px;
