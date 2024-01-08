@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
@@ -32,7 +34,7 @@ section{
 .banner-text{
     width: 632px;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 200px;
 }
 #banner-area{
     margin-top: 40px;
@@ -56,6 +58,7 @@ section{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 .discount-text h2{
     color: #070211;
@@ -66,13 +69,15 @@ section{
 
 }
 .discount-area{
-    height: 900px;
+    margin-top: 120px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-direction: column;
 }
 .discount-image{
+    padding-top: 50px;
     margin: 0 auto;
     width: 800px;
     height: 500px;
@@ -111,6 +116,7 @@ section{
     text-transform: uppercase;
 }
 .midnight-text{
+    padding-top: 80px;
     width: 697px;
 }
 .midnight-area{
@@ -159,7 +165,7 @@ section{
     color: #FFF;
 }
 .park-hotel{
-    padding-top: 100px;
+    padding-top: 140px;
     text-align: center;
 }
 #park-hotel-area{
@@ -241,8 +247,11 @@ section{
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 
+}
+.holi{
+    color: #F00;
 }
 .holiday-area p{
     color: rgba(7, 2, 17, 0.60);
@@ -291,13 +300,14 @@ section{
     font-family: Lato;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 .gift-text h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 .gift-text p{
     color: rgba(7, 2, 17, 0.60);
@@ -313,8 +323,133 @@ section{
 .image-parent{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 #six-image{
     margin-top: 120px;
+}
+
+/* here the subscribe area  */
+
+.subscribe-item h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe-item p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-item{
+    width: 896px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gmail-img{
+    width: 150px;
+    height: 151px;
+    /* margin: 0 auto; */
+}
+.gmail-img-sectionn{
+    display: flex;
+    justify-content: center;
+}
+
+#enter-email{
+    width: 438px;
+    height: 65px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.input-btn a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
+}
+.input-btn{
+    width: 210px;
+    height: 70px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.input-areaa{
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+}
+#total-sub-area{
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+/* footer section area  */
+
+.f-top-text h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.f-top-text h4{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 135px;
+    padding-top: 10px;
+}
+.first-text{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.icon-area{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.last-text h4{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+}
+.last-text{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 710px;
+    margin-top: 120px;
+    background-color:#070211;
+}
+.all-footer-item{
+    /* height: 300px; */
+    padding-top: 200px;
 }
